@@ -1,0 +1,155 @@
+.auth_form {
+    width: 350px;
+    min-height: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #365c6d;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.auth_form p{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.auth_form input{
+    border: none;
+    cursor: text;
+    width: 85%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    border-radius: 100px;
+    background-color: #2c4b59;
+    color: #ffffff;
+}
+
+.auth_form button{
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #efa615;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.auth_form button:hover{
+    background-color: #cc8a10;
+}
+
+.avatar{
+    width: 250px;
+    height: 250px;
+    border: 2px solid #2ecc71;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+}
+
+.login a{
+	border: 0;
+	background: none;
+	display: flex;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.50s;
+	cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+	
+}
+
+.login a:hover {
+	background: #2ecc71;
+}
+
+.content {
+    border: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content form {
+   padding: 20px;  
+}
+
+.block-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block-list .list-item {
+    display: flex;
+    background-color: #2ecc71;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    opacity: 0.55;
+    transition: 0.3s;
+}
+.list-item:hover{
+    outline: 2px solid #2ecc71;
+    opacity: 0.8
+}
+
+.username{
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.red {
+    display: flex;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    opacity: 0.55;
+}
+.none{
+    position: absolute;
+    background-color: #2ecc71;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: -999;
+    top: 0px;
+}
+
+.block{
+    position: absolute;
+    background-color: #2ecc71;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0.55;
+    z-index: -999;
+    top: 372px;
+    transition: 1s;
+    margin: 0 20px;
+    align-items: center;
+    /* left: 387.6px; */
+}
